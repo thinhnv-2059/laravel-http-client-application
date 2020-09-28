@@ -1,6 +1,6 @@
 # About
 
-Laravel 8 CRUD application using [HTTP Client](https://laravel.com/docs/8.x/http-client) and [{JSON} Placeholder](https://jsonplaceholder.typicode.com/) REST API data.
+Laravel 8 CRUD application using [HTTP Client](https://laravel.com/docs/8.x/http-client) and [Reqres](https://reqres.in/) REST-API data.
 
 # Installing
 
