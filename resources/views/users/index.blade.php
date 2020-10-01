@@ -24,7 +24,7 @@
                                 @foreach ($users->data as $user)
                                 <tr>
                                     <td>
-                                        TODO
+                                        <img style="height: 100px" src={{$user->avatar}}>
                                     </td>
                                     <td>{{$user->first_name}}</td>
                                     <td>{{$user->last_name}}</td>
