@@ -93,6 +93,14 @@ class UserController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $responseDelete = Http::delete('https://reqres.in/api/users/' . $id);
+
+        $page = request('page');
+
+        $response = Http::get('https://reqres.in/api/users?page=' . $page);
+
+        $users = $response->object();
+
+        return view('users.index', compact('users'));
     }
 }
